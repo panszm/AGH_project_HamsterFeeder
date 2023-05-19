@@ -25,3 +25,4 @@ class BTConn():
 
     def is_empty(self) -> bool:
         return self.get_food_left_in_grams() <= consts.GRAMS_PER_SENSOR_UNIT * consts.UNIT_PRECISION
+    
